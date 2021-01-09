@@ -1,43 +1,90 @@
 <!doctype html>
 <html>
-<head>
-  <title>Coding Study Links</title>
-  <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172400353-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-172400353-1');
-    </script>
-
-</head>
+  <head>
+    <title>Chokomi's Work Links</title>
+    <meta charset="utf-8">
+    <style>
+     
+      body{
+        margin: 0;
+      }
+      h1{
+        font: size 45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin: 0;
+        padding-left: 20px;
+      }
+      h2{
+        margin-left: 15px;
+      }
+      a {
+        color: rebeccapurple;
+        text-decoration: none;
+      }
+      #grid{
+        border-bottom: 1px solid gray;
+        display:grid;
+        grid-template-columns: 200px 1fr;
+      }
+      #grid #article{
+        padding-left: 20px;
+        border-left: 1px solid gray;
+      }
+      @media(max-width:800px){
+        h1{
+          font: size 30px;
+          border:none-bottom:1px solid gray;
+          text-align: left;
+          margin: 0;
+          padding-left: 10px;
+        }
+        #grid{
+          display:block;
+        }
+      }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172400353-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  
+        gtag('config', 'UA-172400353-1');
+      </script>
+  </head>
 <body>
   <img src=".\CHOKOMI-logo-black.png" width="120"><br>
   <h1><a href="index.html">WORK LINKS</a></h1>
-
-  <ol>
-    <li><a href="1.html">Strategy Planning</a></li>
-    <li><a href="2.html">Coding study</a></li>
-    <li><a href="3.html">Free Sources</a></li>
-  </ol>
-  <h2>Coding Study</h2>
-  <p>
-    <ul>
-      <li><a href="https://opentutorials.org/" target="_blank">Opentutorials.org</a></li>
-      <li><a href="https://opentutorials.org/course/1" target="_blank">생활코딩</a></li>
-      <li><a href="https://dojang.io" target="_blank">코딩도장</a></li>
-      <li><a href="https://github.com" target="_blank">Github (https://chokomi.github.io/web1/)</a></li>
-      <li><a href="https://www.netlify.com/" target="_blank">netlify: Hosting (http://chokomi.netlify.app)</a></li>
-      <li><a href="https://neocities.org/" target="_blank">Neocities: Hosting (https://chokomi.neocities.org)</a></li>
-      <li><a href="http://keep.google.com" target="_blank">Google Keep</a></li>
-      <li><a href="http://www.youtube.com" target="_blank">유튜브</a></li>
-    </ul>
-  </p>
+   <div id="grid">
+    <div id="index">
+      <h2>INDEX</h2>
+      <ol>
+          <li><a href="1.html">Strategy Planning</a></li>
+          <li><a href="2.html">Coding study</a></li>
+          <li><a href="3.html">Free Sources</a></li>
+      </ol>
+    </div>  
+   
+      <div id="article">
+        <p>
+          <h2>Coding Study</h2>
+          <ul>
+            <li><a href="https://opentutorials.org/" target="_blank">Opentutorials.org</a></li>
+            <li><a href="https://opentutorials.org/course/1" target="_blank">생활코딩</a></li>
+            <li><a href="https://dojang.io" target="_blank">코딩도장</a></li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+            <li><a href="https://www.netlify.com/" target="_blank">netlify: Hosting</a></li>
+            <li><a href="https://neocities.org/" target="_blank">Neocities: Hosting</a></li>
+            <li><a href="http://keep.google.com" target="_blank">Google Keep</a></li>
+            <li><a href="http://www.youtube.com" target="_blank">유튜브</a></li>
+          </ul>
+        </p>
+      </div>
+    </div> 
   <br>
-  <p>Chokomi's work links is the web site providing universal hyperlinks.
+  <p style="margin-left: 30px;">"<b>CHOKOMI's work links</b>" provides universial hyperlinks for works.
   </p>
   <br>
 
